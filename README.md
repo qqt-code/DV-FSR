@@ -10,9 +10,9 @@ This is the pytorch implementation
 
 ## Usage
 
-To run attack CSA-RA
+To run attack DV-FSR
 
-`python main.py --dataset=ML --attack=method_CSAF --clients_limit=0.001 --model_type=SASrec2 --device=cuda:0 --lr=0.001 --epochs=30 --agg=common --num_attack=1`
+`python main.py --dataset=ML --attack=method_DV-FSR --clients_limit=0.001 --model_type=SASrec2 --device=cuda:0 --lr=0.001 --epochs=30 --agg=common --num_attack=1`
 
 There are two choices on dataset:
 
